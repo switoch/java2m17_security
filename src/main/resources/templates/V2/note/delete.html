@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delete a Note by ID</title>
+</head>
+<body>
+<div>
+    <div>
+        <form action="/note/delete" method="post" style="width:100%">
+            <label>Enter ID to delete a Note</label>
+            <input id="id-for-delete" name="id" text="Delete">
+
+            <button onClick="return confirm('sure?')" type="submit">Delete</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

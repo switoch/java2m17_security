@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit a Note by ID</title>
+</head>
+<body>
+<div>
+    <div>
+        <form action="/note/edit" method="get" style="width:100%">
+            <label>Enter ID to delete a Note</label>
+            <input id="id-for-edit" name="id" text="Edit">
+            <textarea cols="30" id="content" name="content" rows="10"></textarea>
+
+            <button onClick="return confirm('sure?')" type="submit">Edit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
